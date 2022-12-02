@@ -15,24 +15,24 @@ contract FalloutAttack {
 	}
 	
 	function Fal1out() public payable {
-		return FalloutAttack.Fal1out();
+		return fallout.Fal1out();
 	}
 	
 		
 	function allocate() public payable {
-		return FalloutAttack.allocate();
+		return fallout.allocate();
 	}
 
 //	function sendAllocation(address payable allocator)  {
-	//	return FalloutAttack.sendAllocation();
+	//	return fallout.sendAllocation();
 //	  }
 
 	// function collectAllocations() {
-	//	return FalloutAttack.collectAllocations();
+	//	return fallout.collectAllocations();
 	//  }
 
 	// function allocatorBalance(address allocator) public view returns (uint) {
-	//	return FalloutAttack.allocatorBalance();
+	//	return fallout.allocatorBalance();
 	//  }
 		
 }
